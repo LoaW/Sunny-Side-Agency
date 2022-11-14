@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@700&display=swap");
 header {
   background-image: url("/assets/img/photos/image-header.jpg");
   background-position: center;
@@ -26,26 +27,181 @@ header .title h1 {
   font-size: 8vw;
   text-align: center;
   margin-bottom: 2em;
+  font-family: "Fraunces", serif;
 }
-main .transform {
+main .transform, main .stand {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-main .transform__text {
+main .transform__text, main .stand__text {
   margin-top: 4em;
   margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-main .transform__text h2 {
+main .transform__text h2, main .stand__text h2 {
+  font-size: 2em;
+  font-family: "Fraunces", serif;
+}
+main .transform__text p, main .stand__text p {
+  color: #808397;
+  width: 80%;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.1285714358px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+main .transform__text span, main .stand__text span {
+  font-family: "Fraunces", serif;
+  border-bottom: 5px solid rgb(239, 239, 163);
+}
+main .transform__image img, main .stand__image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.graphic, .photography {
+  text-align: center;
+  background-image: url(/assets/img/photos/image-graphic-design.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #24554A;
+}
+.graphic h3, .photography h3 {
+  padding-top: 30vh;
+  font-family: "Fraunces", serif;
   font-size: 2em;
 }
-main .transform__image {
-  width: 50%;
-  overflow: hidden;
+.graphic p, .photography p {
+  width: 70%;
 }
+
+.photography {
+  text-align: center;
+  background-image: url(/assets/img/photos/image-photography.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #19536C;
+}
+.photography h3 {
+  padding-top: 30vh;
+  font-family: "Fraunces", serif;
+  font-size: 2em;
+}
+.photography p {
+  width: 70%;
+}
+
+.client {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 5em;
+}
+.client__title {
+  color: #808397;
+  letter-spacing: 0.3em;
+}
+.client p {
+  font-family: "Fraunces", serif;
+}
+.client div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+}
+.client div img {
+  border-radius: 50%;
+  width: 20%;
+}
+.client div p {
+  width: 80%;
+  font-family: "Barlow", sans-serif;
+  color: #5B636D;
+}
+.client div .name {
+  font-weight: bolder;
+  font-family: "Fraunces", serif;
+  color: #24303E;
+}
+.client div .profession {
+  color: #808397;
+  margin-top: 1em;
+  font-size: 0.8em;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 50vw;
+  height: 50vw;
+}
+
+footer {
+  background-color: #90D4C6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer .logo {
+  margin-top: 3em;
+  width: 40%;
+}
+footer .navLinks {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+footer .navLinks a {
+  color: #2C7566;
+  text-decoration: none;
+  font-weight: 400;
+}
+footer .navLinks a:hover {
+  font-weight: 800;
+}
+footer .navLinks .navLinks__services {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+footer .socialLinks {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+footer .socialLinks a {
+  margin: 0 0.5em;
+  border-bottom: 0px solid #2C7566;
+}
+footer .socialLinks a:hover {
+  border-bottom: 3px solid #2C7566;
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Barlow", sans-serif;
 }/*# sourceMappingURL=style.css.map */

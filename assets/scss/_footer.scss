@@ -1,0 +1,40 @@
+footer {
+    background-color: $softGreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .logo{
+        margin-top: 3em;
+        width: 40%;
+    }
+    .navLinks {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding-inline-start: 0px;
+        a{
+            color: $darkGreen;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        a:hover{
+            font-weight: 800;
+        }
+        .navLinks__services{
+            margin-left: 2em;
+            margin-right: 2em;
+        }
+    }
+    .socialLinks{
+        margin-top: 2em;
+        margin-bottom: 5em;
+        padding-inline-start: 0px;
+        a{
+            margin: 0 .5em;
+            border-bottom: 0px solid $darkGreen;
+        }
+        a:hover{
+            border-bottom: 3px solid $darkGreen;
+        }
+    }
+}

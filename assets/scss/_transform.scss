@@ -1,21 +1,40 @@
-main{
-    .transform{
+main  {
+    .transform, .stand {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        &__text{
+        &__text {
             margin-top: 4em;
             margin-bottom: 4em;
-            h2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2 {
                 font-size: 2em;
+                font-family: "Fraunces", serif;
+            }
+            p {
+                color: $softGrey;
+                width: 80%;
+                font-size: 1em;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: 0.12857143580913544px;
+                text-align: center;
+                margin-bottom: 2em;
+            }
+            span {
+                font-family: "Fraunces", serif;
+                border-bottom: 5px solid $softYellow;
             }
         }
-        &__image{
-                width:50%;
-                overflow: hidden;
-            img{
+        &__image {
+            img {
+                max-width: 100%;
+                max-height: 100%;
             }
         }
     }
