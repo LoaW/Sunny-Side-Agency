@@ -13,10 +13,26 @@
             <nav class="navbar">
                 <img src="./assets/img/logo.svg" alt="logo sunny side" />
                 <img
+                    onclick="openModal()"
+                    class="modal-open"
                     src="./assets/img/icons/icon-hamburger.svg"
                     alt="icon menu"
                 />
             </nav>
+            <section class="modal">
+                <img
+                    class="modal-close"
+                    onclick="closeModal()"
+                    src="./assets/img/icons/icon-hamburger.svg"
+                    alt="icon menu"
+                />
+                <ul>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Projects</a>
+                    <a class="contact" href="#">CONTACT</a>
+                </ul>
+            </section>
             <section class="title">
                 <h1>
                     WE ARE <br />
@@ -138,5 +154,6 @@
                 <a href="#"><img src="./assets/img/icons/icon-pinterest.svg" alt="pinterest icon"></a>
             </ul>
         </footer>
+        <script src="./assets/scripts/modal.js"></script>
     </body>
 </html>

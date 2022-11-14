@@ -1,7 +1,7 @@
 header {
     background-image: url("/assets/img/photos/image-header.jpg");
     background-position: center;
-    background-size: 200%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +12,39 @@ header {
         align-items: center;
         margin-top: 2em;
         margin-bottom: 2em;
+    }
+    .modal{
+        background-color: rgba($color: $softBlue, $alpha: .9);
+        visibility: hidden;
+        img{
+            text-align: end;
+            position: absolute;
+            right: 20px;
+            top: 40px;
+        }
+        ul{
+            height: 100vh;
+            width: 100vw;
+            padding-inline-start: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            a{
+                margin-bottom: 3em;
+                font-size: 2em;
+                font-weight: 800;
+                text-decoration: none;
+                color: white;
+            }
+            .contact{
+                background-color: white;
+                color: $softBlue;
+                padding: .5em;
+                border-radius: 25px;
+            }
+        }
+        position: absolute;
     }
     .title{
         display: flex;

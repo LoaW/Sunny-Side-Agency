@@ -2,7 +2,7 @@
 header {
   background-image: url("/assets/img/photos/image-header.jpg");
   background-position: center;
-  background-size: 200%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,6 +14,40 @@ header .navbar {
   align-items: center;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+header .modal {
+  background-color: rgba(89, 164, 255, 0.9);
+  visibility: hidden;
+  position: absolute;
+}
+header .modal img {
+  text-align: end;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+header .modal ul {
+  height: 100vh;
+  width: 100vw;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .modal ul a {
+  margin-bottom: 3em;
+  font-size: 2em;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+}
+header .modal ul .contact {
+  background-color: white;
+  color: rgb(89, 164, 255);
+  padding: 0.5em;
+  border-radius: 25px;
 }
 header .title {
   display: flex;
