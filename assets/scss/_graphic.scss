@@ -1,41 +1,65 @@
-.graphic, .photography{
-    text-align: center;
-    background-image: url(/assets/img/photos/image-graphic-design.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
+.photographic {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #24554A;
-    h3{
-        padding-top: 30vh;
-        font-family: "Fraunces", serif;
-        font-size: 2em;
+    @media only screen and (min-width: $desktop) {
+        flex-direction: row;
     }
-    p{
-        width: 70%;
+    .graphic {
+        text-align: center;
+        background-image: url(/assets/img/photos/image-graphic-design.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #24554a;
+        
+        @media only screen and (min-width: $desktop) {
+            width: 50%;
+        }
+        h3 {
+            padding-top: 30vh;
+            font-family: "Fraunces", serif;
+            font-size: 2em;
+        }
+        p {
+            width: 70%;
+            @media only screen and (min-width: $desktop) {
+                width: 50%;
+                font-size: 1.5em;
+                padding-bottom: 5vh;
+            }
+        }
     }
-}
 
-.photography{
-    text-align: center;
-    background-image: url(/assets/img/photos/image-photography.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #19536C;
-    h3{
-        padding-top: 30vh;
-        font-family: "Fraunces", serif;
-        font-size: 2em;
-    }
-    p{
-        width: 70%;
+    .photography {
+        text-align: center;
+        background-image: url(/assets/img/photos/image-photography.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #19536c;
+        @media only screen and (min-width: $desktop) {
+            width: 50%;
+            height: auto;
+        }
+        h3 {
+            padding-top: 30vh;
+            font-family: "Fraunces", serif;
+            font-size: 2em;
+        }
+        p {
+            width: 70%;
+            @media only screen and (min-width: $desktop) {
+                width: 50%;
+                font-size: 1.5em;
+                padding-bottom: 5vh;
+            }
+        }
     }
 }
