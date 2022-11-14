@@ -1,5 +1,3 @@
-const openBtn = document.querySelector(".modal-open")
-const closeBtn = document.querySelector(".modal-close")
 const modal = document.querySelector(".modal")
 
 function openModal(){
