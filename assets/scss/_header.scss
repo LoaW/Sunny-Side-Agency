@@ -1,0 +1,32 @@
+header {
+    background-image: url("/assets/img/photos/image-header.jpg");
+    background-position: center;
+    background-size: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .navbar {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4em;
+        h1{
+            color: white;
+            font-size: 8vw;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        &__arrow{
+            
+        }
+    }
+}

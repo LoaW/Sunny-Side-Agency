@@ -1,0 +1,22 @@
+main{
+    .transform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        &__text{
+            margin-top: 4em;
+            margin-bottom: 4em;
+            h2{
+                font-size: 2em;
+            }
+        }
+        &__image{
+                width:50%;
+                overflow: hidden;
+            img{
+            }
+        }
+    }
+}
