@@ -1,7 +1,9 @@
 .gallery {
     display: flex;
     flex-wrap: wrap;
-
+    @media only screen and (min-width: $desktop) {
+        flex-wrap: nowrap;
+    }
     img {
         width: 50vw;
         height: 50vw;

@@ -1,7 +1,6 @@
 .stand{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
     @media only screen and (min-width: $desktop) {
@@ -24,7 +23,7 @@
         p {
             color: $softGrey;
             width: 80%;
-            font-size: 1em;
+            font-size: 1.3em;
             font-weight: 600;
             line-height: 30px;
             letter-spacing: 0.12857143580913544px;
@@ -33,15 +32,17 @@
         }
         span {
             font-family: "Fraunces", serif;
-            border-bottom: 5px solid $softYellow;
+            border-bottom: 5px solid rgb(238, 128, 128);
         }
     }
     &__image {
+        
         @media only screen and (min-width: $desktop) {
             width: 50%;
         }
         img {
             width: 100%;
+            height: 100%;
             max-width: 100%;
             max-height: 100%;
         }

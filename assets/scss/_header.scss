@@ -12,6 +12,54 @@ header {
         align-items: center;
         margin-top: 2em;
         margin-bottom: 2em;
+        &__logo{
+            width: 20%;
+        }
+        .modal-open{
+            visibility: visible;
+            @media only screen and (min-width: $desktop){
+                visibility: hidden;
+            }
+        }
+        .navbar__links{
+            display: inline;
+            @media only screen and (max-width: $desktop){
+                display: none;
+            }
+            a{
+                font-size: 2em;
+                @media only screen and (min-width: $desktop){
+                    font-size: 1.5em;
+                }
+            }
+            
+        }
+        &__links{
+            padding-inline-start: 0px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1.2em;
+                margin-right: 1.5em;
+                border-bottom: 0px solid white;
+                transition: 0.3s;
+            }
+            a:hover{
+                border-bottom: 2px solid white;
+            }
+            .contactBtn{
+                color: $deepblue;
+                font-weight: 800;
+                background-color: white;
+                border-radius: 1em;
+                padding: .5em;
+                transition: 1s;
+            }
+            .contactBtn:hover{
+                border-radius: .1em;
+                transition: 1s;
+            }
+        }
     }
     .modal{
         background-color: rgba($color: $softBlue, $alpha: .9);
@@ -54,7 +102,7 @@ header {
         margin-bottom: 4em;
         h1{
             color: white;
-            font-size: 8vw;
+            font-size: 6vw;
             text-align: center;
             margin-bottom: 2em;
             font-family: 'Fraunces', serif;
