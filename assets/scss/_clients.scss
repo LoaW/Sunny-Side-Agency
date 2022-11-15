@@ -2,6 +2,9 @@
     text-align: center;
     margin-top: 4em;
     margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+
     &__title {
         color: $softGrey;
         letter-spacing: .3em;
@@ -9,30 +12,41 @@
     p {
         font-family: "Fraunces", serif;
     }
-    div {
+    .client__groupe{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 4em;
-        img {
-            border-radius: 50%;
-            width: 20%;
+        @media only screen and (min-width: $desktop) {
+            flex-direction: row;
         }
-        p {
-            width: 80%;
-            font-family: "Barlow", sans-serif;
-            color: $grey;
-        }
-        .name {
-            font-weight:bolder;
-            font-family: "Fraunces", serif;
-            color: $deepblue;
-        }
-        .profession{
-            color: $softGrey;
-            margin-top: 1em;
-            font-size: .8em;
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 4em;
+            @media only screen and (min-width: $desktop) {
+                flex-direction: column;
+            }
+            img {
+                border-radius: 50%;
+                width: 20%;
+            }
+            p {
+                width: 80%;
+                font-family: "Barlow", sans-serif;
+                color: $grey;
+            }
+            .name {
+                font-weight:bolder;
+                font-family: "Fraunces", serif;
+                color: $deepblue;
+            }
+            .profession{
+                color: $softGrey;
+                margin-top: 1em;
+                font-size: .8em;
+            }
         }
     }
+    
 }

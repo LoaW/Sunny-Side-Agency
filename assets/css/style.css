@@ -249,6 +249,8 @@ main .transform__image img {
   text-align: center;
   margin-top: 4em;
   margin-bottom: 5em;
+  display: flex;
+  flex-direction: column;
 }
 .client__title {
   color: #808397;
@@ -257,28 +259,42 @@ main .transform__image img {
 .client p {
   font-family: "Fraunces", serif;
 }
-.client div {
+.client .client__groupe {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 821px) {
+  .client .client__groupe {
+    flex-direction: row;
+  }
+}
+.client .client__groupe div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 4em;
 }
-.client div img {
+@media only screen and (min-width: 821px) {
+  .client .client__groupe div {
+    flex-direction: column;
+  }
+}
+.client .client__groupe div img {
   border-radius: 50%;
   width: 20%;
 }
-.client div p {
+.client .client__groupe div p {
   width: 80%;
   font-family: "Barlow", sans-serif;
   color: #5B636D;
 }
-.client div .name {
+.client .client__groupe div .name {
   font-weight: bolder;
   font-family: "Fraunces", serif;
   color: #24303E;
 }
-.client div .profession {
+.client .client__groupe div .profession {
   color: #808397;
   margin-top: 1em;
   font-size: 0.8em;
@@ -291,6 +307,12 @@ main .transform__image img {
 .gallery img {
   width: 50vw;
   height: 50vw;
+}
+@media only screen and (min-width: 821px) {
+  .gallery img {
+    width: 25vw;
+    height: 25vw;
+  }
 }
 
 footer {

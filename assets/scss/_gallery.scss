@@ -1,8 +1,14 @@
-.gallery{
+.gallery {
     display: flex;
     flex-wrap: wrap;
-    img{
+
+    img {
         width: 50vw;
         height: 50vw;
+
+        @media only screen and (min-width: $desktop) {
+            width: 25vw;
+            height: 25vw;
+        }
     }
 }
