@@ -8,7 +8,7 @@ Sunnyside Agency is a project proposed by Frontend Mentor.
 It is about integrating as well as possible a design proposed as a challenge.
 The starting sources are images (jpg) and that's it.
 
-You can look at a final preview here: https://loaw.github.io/Sunny-Side-Agency/
+You can look at a final preview here at [SunnySide Agency](https://loaw.github.io/Sunny-Side-Agency/)
 
 ## Teck point
 The technologies used for this project are the following: 
