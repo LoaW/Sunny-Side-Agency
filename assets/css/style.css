@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@700&display=swap");
 header {
-  background-image: url("/assets/img/photos/image-header.jpg");
+  background-image: url("./assets/img/photos/image-header.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -236,7 +236,7 @@ main .transform__image img {
 }
 .photographic .graphic {
   text-align: center;
-  background-image: url(/assets/img/photos/image-graphic-design.jpg);
+  background-image: url("./assets/img/photos/image-graphic-design.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -268,7 +268,7 @@ main .transform__image img {
 }
 .photographic .photography {
   text-align: center;
-  background-image: url(/assets/img/photos/image-photography.jpg);
+  background-image: url("./assets/img/photos/image-photography.jpg");
   background-position: center;
   background-size: cover;
   height: 60vh;
