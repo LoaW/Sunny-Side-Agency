@@ -1,32 +1,22 @@
 # Sunnyside Agency
 
-- Create a public repository: `sunnyside-agency`
-- Duration: 2 days
-- Deadline: 14/06/2022 - 09:00
-- Submission form: https://forms.gle/i2WUVLvPnAEPjrxf7
+![alt text](./assets/img/photos/Sunnyside_pres1.png)
+
+## What is this page about?
+
+Sunnyside Agency is a project proposed by Frontend Mentor. 
+It is about integrating as well as possible a design proposed as a challenge.
+The starting sources are images (jpg) and that's it.
+
+You can look at a final preview here: https://loaw.github.io/Sunny-Side-Agency/
+
+## Teck point
+The technologies used for this project are the following: 
+- <img src="./assets/img/icons/html-5.png" alt="html icon" width='5%'> HTML = site structure
+- <img src="./assets/img/icons/css-3.png" alt="html icon" width='5%'> CSS / SCSS = appearance of the site
+- <img src="./assets/img/icons/js.png" alt="html icon" width='5%'> JavaScript = site behavior
+
 ## Learning objectives
-
 - Write meaningful, semantically correct HTML
-- Use modern positioning techniques using the `grid` or `flexbox` model
-- Familiarize yourself with BEM methodology
+- Use modern positioning techniques using the grid or flexbox model
 - Create a "pixel-perfect" integration from a given wireframe
-
-## The mission
-
-![desktop preview](./desktop-preview.jpg)
-
-You've been asked to implement a design for a newly created agency.
-
-The graphic designer gave you all the elements so you can code the thing yourself. You have 2 days, but with the power of flexboxes and grids you should be able to make it!
-
-- The [desktop design](./resources/desktop-design.jpg) end product should match this image
-- The [mobile design](./resources/mobile-design.jpg) end product should match this image
-  - You don't need to implement the burger menu on the mobile view yet, just focus on the rest of the elements.
-
-Good luck!
-
-## Resources
-
-All the informations you need are available in this folder.
-
-Don't hesitate to use the [figma project](https://www.figma.com/file/XAkjbnDhAjD4hzHPMmAS4U/sunnyside-becode?node-id=0%3A1) to get font-sizes, colors and details.
